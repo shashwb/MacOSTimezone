@@ -68,7 +68,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 extension AppDelegate: NSMenuDelegate {
     
     /**
-        these can be seen a little bit like lifecycle methods in React
+        Initial commit :: these can be seen a little bit like lifecycle methods in React
      */
         func menuWillOpen(_ menu: NSMenu) {
         print("extension delegate: menuWillOpen()");
